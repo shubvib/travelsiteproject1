@@ -1,0 +1,155 @@
+/* ////////////////// //////////media quries////////////////////// */
+
+
+@media (max-width: 500px) {
+    html{
+        font-size: 50%;
+        font-weight: 50%;
+    }
+
+    .nav-bar .nav-items, .nav-bar .logo{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-bar .nav-item{
+      display: block;
+      padding: 0px;
+    }
+
+    .header-content h1{
+        display: none;
+    }
+
+    .showcase{
+        height: auto;
+        width: 100%;
+    }
+
+    .row{
+        height: auto;
+        width: 100%;
+    }
+
+    
+
+    .row .img-box, .row .text-box{
+        float: none;
+        width: 100%;
+        text-align: center;
+        height: auto;
+    }
+
+    .features .box{
+        float: none;
+        width: 100%;
+        text-align: center;
+        box-shadow: 5px 5px 10px 5px rgba(128, 128, 128, 0.5);
+    }
+
+    .features .box-2,
+    .features .box-3{
+        margin-top: 25px;
+    }
+
+    .box-wrapper{
+        box-shadow:none
+    }
+
+    .wrapper .left,
+    .wrapper .right{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    .counts .item{
+        float: none;
+        text-align: center;
+        width: 100%;
+        font-size: 50%;
+        margin-bottom: 50px;
+    }
+
+    .banner .text,
+    .banner .contact {
+        float: none;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .from-wrapper .address{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .from-wrapper .from-contact{
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 780px){
+    html{
+        font-size: 50%;
+        font-weight: 50%;
+    }
+
+    .showcase .row{
+        height: 100%;
+    }
+
+    .row .img-box img{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    
+    .from-wrapper .address{
+        height: auto;
+        float: left;
+        width: 48%;
+        margin-right: 20px ;
+        padding: 10px;
+    }
+
+    .from-wrapper .from-contact{
+        height: auto;
+        float: right;
+        width: 48%;
+        font-size: medium;
+        padding: 10px;
+    }
+}
+
+
+@media (min-width: 781px) and (max-width: 1440px){
+    
+    .showcase .row1,
+    .showcase .row2{
+        margin: 20px 0px;
+    } 
+
+    .from-wrapper .address{
+        height: auto;
+        float: left;
+        width: 48%;
+        margin-right: 20px ;
+        padding: 10px;
+    }
+
+    .from-wrapper .from-contact{
+        height: auto;
+        float: right;
+        width: 48%;
+        padding: 10px;
+    }
+}
